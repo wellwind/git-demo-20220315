@@ -65,3 +65,5 @@ v1.1.0
 
 * chore(calculator): 使用工具產生模型檔 (10 檔案) (2629a)
 * feat(calculator/backend): 實作加法/減法邏輯 (1 檔) (4895b)
+
+🐛: 修正某個錯誤
