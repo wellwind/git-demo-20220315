@@ -15,32 +15,53 @@ commit:
 
 使用者個人設定
 
-* 安裝資料庫套件 -> commit
-* 加入管理使用者的功能 -> commit
-* 完成使用者個人設定功能 --> reset (2. pass)
+* chore(db): 安裝資料庫套件
+* feat(member): 加入管理使用者的功能 -> commit
+* feat(member): 完成使用者個人設定功能 --> reset (2. pass)
+
+-> tag: v1.0.0
 
 計算相關 API
 
-* 使用工具產生模型檔 (10 檔案)
-* 實作加法/減法邏輯 (1 檔)
+* chore(calculator): 使用工具產生模型檔 (10 檔案)
+* feat(calculator/backend): 實作加法/減法邏輯 (1 檔)
   Add.cs
   Sub.cs
-* 加法 API --> reset (3. pass) (1 個檔案異動 -> 5 萬行程式 -> 2 萬行異動)
+* feat(calculator/frontend): 加法程式的界面處理
+* feat: 加法 API --> reset (3. pass) (1 個檔案異動 -> 5 萬行程式 -> 2 萬行異動)
 * 減法 API
-* 乘法 API --> reset (1. fail)
-* 除法 API
+
+-> tag: v1.1.0
+
+* fix: 修正計算錯誤
+
+-> tag: v1.1.1
+
+* fix: 修正介面錯誤
+
+-> tag: v1.1.2
+
+* feat: 乘法 API --> reset (1. fail)
+
+-> tag: v1.2.0
+
+* feat!: xxxxxx
+  BREAKING CHANGES
+
+-> tag: v2.0.0
+
 
 計算機的介面
 
 * 基本介面設計
 * 介面與 API 串接
-* 介面微調
+* fix(calculator): 介面微調
 
 ---
 
-200
-50
-25
-5
-5
-5
+RELEASE NOTES:
+
+v1.1.0
+
+* chore(calculator): 使用工具產生模型檔 (10 檔案) (2629a)
+* feat(calculator/backend): 實作加法/減法邏輯 (1 檔) (4895b)
