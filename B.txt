@@ -2,3 +2,5 @@ B.txt
 
 Test
 DEMO
+
+feature-B demo
