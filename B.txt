@@ -4,3 +4,5 @@ Test
 DEMO
 
 feature-B demo
+
+feature-B 2
