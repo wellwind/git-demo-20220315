@@ -1,2 +1,4 @@
 RELEASE NOTE
 ==========
+
+* Add feature B - 3
