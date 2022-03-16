@@ -8,3 +8,6 @@ RELEASE NOTE
 
 *
 *
+
+B - 6
+B - 7
