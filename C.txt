@@ -3,3 +3,5 @@ C.txt
 CCC
 
 feature-c DEMO
+
+feature B (in C.txt)
