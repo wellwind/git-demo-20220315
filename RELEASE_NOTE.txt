@@ -9,5 +9,6 @@ RELEASE NOTE
 *
 *
 
+A - 8
 B - 6
 B - 7
