@@ -14,3 +14,5 @@ feature B - 4
 feature B - 5
 
 feature B - 6
+
+feature B - 7
